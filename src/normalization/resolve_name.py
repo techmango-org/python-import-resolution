@@ -1,6 +1,5 @@
-import utils.constants as const
-import categorization.animal_categories as animal_categories
-
+from ..utils import constants as const
+from ..categorization import animal_categories as ac
 
 animal_name_map = {
     'DOGY': const.DOG,
@@ -11,11 +10,10 @@ animal_name_map = {
 
 
 def get_animal_name(name):
-    if name in animal_categories.animal_scores:
+    if name in ac.animal_scores:
         return name
 
     if name in animal_name_map:
         return animal_name_map[name]
 
     return None
-

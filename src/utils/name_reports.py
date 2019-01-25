@@ -1,5 +1,5 @@
-import normalization.resolve_name as rn
-import categorization.animal_categories as ac
+from ..normalization import resolve_name as rn
+from ..categorization import animal_categories as ac
 
 test_name = 'DOGY'
 resolved_name = rn.get_animal_name(test_name)
