@@ -1,5 +1,5 @@
-from src.utils import constants as const
-from src.categorization import animal_categories as ac
+import src.utils.constants as const
+import src.categorization.animal_categories as ac
 
 animal_name_map = {
     'DOGY': const.DOG,

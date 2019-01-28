@@ -1,4 +1,4 @@
-from src.utils import constants as const
+import src.utils.constants as const
 
 animal_scores = {
     const.DOG: 100,
